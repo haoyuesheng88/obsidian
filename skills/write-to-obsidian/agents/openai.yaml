@@ -1,0 +1,7 @@
+interface:
+  display_name: "Write To Obsidian"
+  short_description: "Create or append notes in the active Obsidian vault"
+  default_prompt: "Use $write-to-obsidian to find the active local Obsidian vault, write the requested content into a note, and open that note in Obsidian if helpful."
+
+policy:
+  allow_implicit_invocation: true
